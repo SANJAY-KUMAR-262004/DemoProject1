@@ -1,0 +1,123 @@
+body {
+    background-image: url(img/d8Lw6r.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .ul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .list {
+    color: bisque;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .list a:link {
+    color: hotpink;
+    text-decoration: none;
+    text-align: center;
+  }
+  .list a:visited {
+    color: greenyellow;
+  }
+  .list a:hover {
+    color: blue;
+  }
+  
+  .image {
+    text-align: center;
+  }
+  
+  
+  .image figcaption {
+    color: white;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .contact {
+    text-align: center;
+  }
+  .contact fieldset {
+    text-align: center;
+    border: 2px solid yellowgreen;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  #msg{
+    color: black
+    fo;
+  }
+  .contact form {
+    color: aqua;
+    font-size: 20px;
+  }
+  .contact form ::placeholder {
+    color: chocolate;
+  }
+  .contact button {
+    background-color: palegreen;
+    font-family: cursive;
+    transition-duration: 0.5s;
+    padding: 5px;
+    color: black;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    border-width: 2px;
+    margin: 10px;
+    font-size: medium;
+    opacity: 0px;
+  }
+  .contact button:hover {
+    background-color: red;
+    color: aliceblue;
+    box-shadow: 2px 2px 20px yellow;
+  }
+  #message {
+    width: 500px;
+    border-radius: 5px;
+    background-color: cornsilk;
+  }
+  #name {
+    background-color: cornsilk;
+    border-radius: 5px;
+    padding: 3px;
+  }
+  #name:hover {
+    background-color: black;
+    transition-duration: 0.4s;
+  }
+  #email {
+    background-color: cornsilk;
+    border-radius: 5px;
+    padding: 3px;
+  }
+  .contact form ::placeholder:hover {
+    color: green;
+  }
+  .location{
+    text-align: center;
+  }
+  .location h1{
+    color:turquoise;
+  }
+  address{
+    color: bisque;
+  } 
+  address a:link{
+    color: aqua;
+  }
+  address a:visited{
+    color: green;
+  } 
+  footer{
+    text-align: center;
+    color: cadetblue;
+  }
